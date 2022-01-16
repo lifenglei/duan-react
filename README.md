@@ -3,8 +3,10 @@
 主要技术栈
 mobx+react
 
+# 安装项目所需依赖
+
 # 运行项目
-  yarn start 或者 npm run start
+  yarn dev 或者 npm run dev
 
 #打包项目
 

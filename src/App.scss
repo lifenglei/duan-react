@@ -1,0 +1,10 @@
+@import './assets/common.scss';
+$color-red: red;
+$color-black: black;
+h1{
+  color: $color-red;
+  cursor: pointer;
+  &:hover{
+    color: $color-black;
+  }
+}

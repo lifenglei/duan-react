@@ -1,5 +1,5 @@
 # duan-react
-基于parcel与react搭建项目
+基于parcel与react搭建项目. node版本 >=12安装依赖
 主要技术栈
 mobx+react
 

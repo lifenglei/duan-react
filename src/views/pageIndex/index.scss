@@ -1,3 +1,8 @@
+@import '../../assets/common.scss';
+
 img{
   width:100%;
+}
+.word{
+  @include font-dpr(16px);
 }

@@ -1,0 +1,51 @@
+.radio-wrap {
+  height: 40px;
+  background-color:transparent;
+  display: flex;
+  // align-items: center;
+  padding: 0px 30px;
+
+  // &:active {
+  //   background-color: rgb(221, 221, 221);
+  // }
+
+  .left {
+    display: inline-block;
+
+    .circle {
+      display: inline-block;
+      height: 12px;
+      width: 12px;
+      box-sizing: border-box;
+      border: 1px solid #c5c9cd;
+      // border-radius: 50%;
+      background-color: #ffffff;
+      position: relative;
+      top:-4px;
+
+      
+    }
+    .active{
+      background-color: #fff;
+      .fork {
+        height: 8px;
+        width: 5px;
+        border-right: 1.5px solid #000;
+        border-bottom: 1.5px solid #000;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(
+    45deg);
+      }
+    }
+
+    .label {
+      vertical-align: middle;
+      margin-left: 5px;
+      display: inline-block;
+      line-height: 22px;
+      font-size: 12px;
+    }
+  }
+}
